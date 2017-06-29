@@ -331,6 +331,6 @@
 
     /* Native & common providers */
     $.fn.oembed.providers = [
-		new $.fn.oembed.OEmbedProvider("musescore", "rich", ["musescore\.com", "mus\.cr"], "http://musescore.com/oembed/endpoint")
+		new $.fn.oembed.OEmbedProvider("musescore", "rich", ["musescore\.com", "mus\.cr"], "https://musescore.com/oembed/endpoint")
 	];
 })(jQuery);
